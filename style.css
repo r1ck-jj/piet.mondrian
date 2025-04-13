@@ -3,3 +3,38 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  margin: 60px;
+  border: 2px yellow solid;
+}
+
+div {
+  border: 2px aqua solid;
+}
+.quadro {
+  display: grid;
+  grid-template-columns: 7% 13% 27% 14% 19% 10% 10%;
+}
+
+/*juntando os grids que ocupam mais de um espaço*/
+#i4 {
+  grid-column: span 2;
+}
+#i16 {
+  grid-column: span 2;
+}
+#i20 {
+  grid-column: span 2;
+}
+#i21 {
+  grid-column: span 2;
+}
+#i13 {
+  grid-row: span 2;
+}
+#i14 {
+  grid-row: span 2;
+}
+
+/*colorindo os quadrados*/
