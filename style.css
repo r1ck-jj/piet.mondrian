@@ -6,7 +6,6 @@
 
 body {
   margin: 60px;
-  border: 2px yellow solid;
 }
 
 div {
@@ -15,6 +14,8 @@ div {
 .quadro {
   display: grid;
   grid-template-columns: 7% 13% 27% 14% 19% 10% 10%;
+  width: 696px;
+  height: 521px;
 }
 
 /*juntando os grids que ocupam mais de um espaço*/
