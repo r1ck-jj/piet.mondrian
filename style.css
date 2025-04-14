@@ -1,3 +1,4 @@
+/*Estrutura*/
 * {
   margin: 0;
   padding: 0;
@@ -9,7 +10,7 @@ body {
 }
 
 div {
-  border: 2px aqua solid;
+  border: 7px black solid;
 }
 .quadro {
   display: grid;
@@ -39,3 +40,33 @@ div {
 }
 
 /*colorindo os quadrados*/
+#i2 {
+  background-color: rgba(255, 255, 0, 255);
+}
+#i3 {
+  background-color: rgba(0,0,254,255);
+}
+#i4 {
+  background-color: rgba(241,13,12,255);
+}
+#i5 {
+  background-color: rgba(255, 255, 0, 255);
+}
+#i11 {
+ background-color: rgba(0,0,254,255);
+}
+#i12 {
+  background-color: rgba(241,13,12,255);
+}
+#i16 {
+  background-color: rgba(241,13,12,255);
+}
+#i18 {
+  background-color: rgba(255, 255, 0, 255);
+}
+#i19 {
+  background-color: rgba(0,0,254,255);
+}
+#i20 {
+  background-color: rgba(255, 255, 0, 255);
+}
