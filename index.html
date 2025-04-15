@@ -39,5 +39,27 @@
       </div>
       <p>Estudo feito por Ricardo de Jesus</p>
     </div>
+    <!--Script JS para mudar de cor-->
+    <script>
+      const quadrados = document.querySelectorAll(".quadro div")
+
+      function gerarCorBonita() {
+        const hue = Math.floor(Math.random() * 360)
+        const saturation = 80 + Math.random() * 20
+        const lightness = 40 + Math.random() * 20
+        return `hsl(${hue}, ${saturation}%, ${lightness}%)`
+      }
+
+      quadrados.forEach((quadrado) => {
+        quadrado.addEventListener("mouseenter", () => {
+          quadrado.dataset.originalColor = quadrado.style.backgroundColor
+          quadrado.style.backgroundColor = gerarCorBonita()
+        })
+
+        //quadrado.addEventListener("mouseleave", () => {
+        //quadrado.style.backgroundColor = quadrado.dataset.originalColor || "";
+        // })
+      })
+    </script>
   </body>
 </html>

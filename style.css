@@ -43,10 +43,6 @@ p {
   border: 7px black solid;
 }
 
-.quadro div:hover {
-  filter: brightness(5);
-  cursor: pointer;
-}
 
 /*juntando os grids que ocupam mais de um espaço*/
 #i4 {
